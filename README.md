@@ -24,6 +24,10 @@ Nos dirigimos al menu de compilacion de remix y utilizamos un compilador entre l
 
 Dentro de nuestra pestaña de deployment en Remix, tendremos que seleccionar el contrato a deployar, elegimos ejemploNombre.sol
 
+En nuestro contrato tendremos el constructor de nuestro smart contract, el cual recibe como parametro el supply (la cantidad) de tokens que generaremos.
+
 Luego le administramos el supply en de nuestro token en el input "supply".
+
+![](images/supply.png)
 
 Una vez realizado, deployamos el contrato desde nuestra VM London y tendremos todo listo!
