@@ -1,5 +1,5 @@
 # ERC20Basic
-Una sencilla implementacion del contrato ERC20
+Una sencilla implementacion del contrato ERC20.
 
 Abrimos Remix , creamos una nueva carpeta que llamaremos custom_token, dentro creamos un archivo que se llame ejemploNombre.sol, dentro copiaremos el contenido de ERC20.sol
 En nuestra nueva carpeta creamos otro archivo que llamaremos SafeMath.sol donde importaremos una implementacion abreviada de esta libreria.
@@ -29,9 +29,12 @@ En nuestro contrato tendremos el constructor de nuestro smart contract, el cual 
             balances[msg.sender] = totalSupply_;
         }
 
-Luego le administramos el supply en de nuestro token en el input "supply".
+Luego le administramos el supply en de nuestro token en el constructor con el input "supply".
 
 ![](images/supply.png)
 
-Una vez realizado, seleccoinamos el entorno de despliegue de nuestro contrato, en este caso utilizaremos la red testnet Rinkeby, para esto seleccionamos esta red en nuestra metaMask, en la cual deberemos tener Ether de test, en caso de necesitar Ether para esta red podemos utilizar el siguiente faucet: https://faucets.chain.link/rinkeby
+Una vez realizado, seleccionamos el entorno de despliegue de nuestro contrato, en este caso utilizaremos la VM London.
 
+
+
+Con todo esto seteado podremos desplegar nuestro contrato y generar nuestro token 😎😎😎!!!
