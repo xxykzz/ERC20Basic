@@ -22,12 +22,16 @@ Nos dirigimos al menu de compilacion de remix y utilizamos un compilador entre l
 
 # Deploy de nuestro contrato
 
-Dentro de nuestra pestaña de deployment en Remix, tendremos que seleccionar el contrato a deployar, elegimos ejemploNombre.sol
-
 En nuestro contrato tendremos el constructor de nuestro smart contract, el cual recibe como parametro el supply (la cantidad) de tokens que generaremos.
+
+        constructor(uint256 initialSupply) public {
+            totalSupply_ = initialSupply;
+            balances[msg.sender] = totalSupply_;
+        }
 
 Luego le administramos el supply en de nuestro token en el input "supply".
 
 ![](images/supply.png)
 
-Una vez realizado, deployamos el contrato desde nuestra VM London y tendremos todo listo!
+Una vez realizado, seleccoinamos el entorno de despliegue de nuestro contrato, en este caso utilizaremos la red testnet Rinkeby, para esto seleccionamos esta red en nuestra metaMask, en la cual deberemos tener Ether de test, en caso de necesitar Ether para esta red podemos utilizar el siguiente faucet: https://faucets.chain.link/rinkeby
+
