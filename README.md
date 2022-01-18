@@ -39,6 +39,6 @@ Una vez realizado, seleccionamos el entorno de despliegue de nuestro contrato, e
 
 Con todo esto seteado estamos listos para desplegar nuestro contrato y generar nuestro token.
 
-![](images/despliegueRealizado.png)
+![](images/desplieueRealizado.png)
 
 Todo listo, ya creaste tu token ERC20 😎😎😎.
