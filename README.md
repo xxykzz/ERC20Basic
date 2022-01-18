@@ -35,6 +35,10 @@ Luego le administramos el supply en de nuestro token en el constructor con el in
 
 Una vez realizado, seleccionamos el entorno de despliegue de nuestro contrato, en este caso utilizaremos la VM London.
 
+![](images/entornoCompleto.png)
 
+Con todo esto seteado estamos listos para desplegar nuestro contrato y generar nuestro token.
 
-Con todo esto seteado podremos desplegar nuestro contrato y generar nuestro token 😎😎😎!!!
+![](images/despliegueRealizado.png)
+
+Todo listo, ya creaste tu token ERC20 😎😎😎.
